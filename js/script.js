@@ -9,3 +9,14 @@ function checkRequirements() {
     errorDiv.style.display = "none";
   }
 }
+const slider = document.querySelector('.slider');
+const slides = document.querySelectorAll('.slide');
+let slideIndex = 0;
+
+setInterval(() => {
+  slideIndex++;
+  if (slideIndex === slides.length) {
+    slideIndex = 0;
+  }
+  slider.style.transform = `translateX(-${slideIndex * 100}%)`;
+}, 5000);
