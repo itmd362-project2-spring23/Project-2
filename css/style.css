@@ -398,5 +398,95 @@ main {
     width: 80%;
   }
 }
-	
+@media only screen and (min-width: 768px) {
+
+.container {
+max-width: 960px;
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar-brand {
+font-size: 2rem;
+margin-right: 2rem;
+}
+.nav-link {
+font-size: 1.5rem;
+margin-right: 1rem;
+}
+.btn {
+font-size: 1.5rem;
+padding: 0.75rem 1.5rem;
+}
+.header {
+height: 60vh;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.header h1 {
+font-size: 5rem;
+margin-bottom: 2rem;
+}
+.header p {
+font-size: 2rem;
+margin-bottom: 2rem;
+}
+.feature {
+display: flex;
+justify-content: space-between;
+margin-bottom: 4rem;
+}
+.feature img {
+width: 45%;
+}
+.feature-content {
+width: 45%;
+}
+.feature h2 {
+font-size: 3rem;
+margin-bottom: 2rem;
+}
+.feature p {
+font-size: 1.5rem;
+margin-bottom: 2rem;
+}
+.cta {
+background-color: #ff4500;
+padding: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cta h2 {
+font-size: 3rem;
+margin-right: 2rem;
+}
+.cta .btn {
+font-size: 1.5rem;
+padding: 0.75rem 1.5rem;
+}
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 4rem;
+}
+.footer .logo {
+font-size: 3rem;
+margin-right: 2rem;
+}
+.footer .nav-link {
+font-size: 1.5rem;
+margin-right: 1rem;
+}
+.footer .btn {
+font-size: 1.5rem;
+padding: 0.75rem 1.5rem;
+}
+}	
 
