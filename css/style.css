@@ -274,6 +274,57 @@ main {
     transform: translateX(0%);
   }
 }
+@media screen and (max-width: 480px) {
+  .content-section{
+    width: 100%;
+    padding: 0.5rem;
+  }
+  main{
+    display: block;
+  }
+  nav ul li {
+    width: unset;
+    height: auto;
+    text-align: center;
+  }
+}
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  width: 300%;
+  animation: slide 10s infinite;
+}
+
+.slide {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  33.33% {
+    transform: translateX(-100%);
+  }
+  66.67% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 #social-navbar {
             position: fixed;
             bottom: 50px;
