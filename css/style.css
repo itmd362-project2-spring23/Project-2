@@ -3,6 +3,7 @@ nav {
   display:flex;
   justify-content: center;
   background-color:#191970;
+  font-family: 'MyFont', sans-serif;
 }
 body {
   background-color: #dcdcdc;
